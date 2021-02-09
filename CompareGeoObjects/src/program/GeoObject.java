@@ -9,7 +9,9 @@ package program;
  *
  * @author Seth Veeper
  */
-public abstract class GeoObject {
+
+// the GeoObject class should implemente the Comparable interface
+public abstract class GeoObject implements Comparable {
   String color = "white";
   boolean filled;
   private java.util.Date dateCreated;
